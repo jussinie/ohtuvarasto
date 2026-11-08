@@ -13,6 +13,7 @@ def main():
     mehua.lisaa_varastoon(50.7)
     mehua.ota_varastosta(3.14)
     print(f"Mehuvarasto: {mehua}")
+    print("Tämä ylimääräinen rivi rikkoo max-statements (11/10) ja max-line-length (88/80) -säännöt!")
 
 
 if __name__ == "__main__":
